@@ -1,0 +1,129 @@
+.main--one {
+  background: #036C5E;
+}
+
+.main--one__all {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  padding: 80px 0px;
+}
+
+.main--one__bonus {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex: 1 0 0;
+  align-self: stretch;
+}
+
+.main--one__present {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+  align-self: stretch;
+}
+
+.main--one__present > h1 {
+  color: #FFF;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Raleway;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; 
+}
+
+.main--one__present > p {
+  color: #FFF;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Raleway;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; 
+}
+
+.main--one__bonus > button {
+  display: flex;
+  height: 50px;
+  padding: 20px 70px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: none;
+  border-radius: 5px;
+  background:#EAC632;
+  color:#036C5E;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.main--one__images {
+  display: flex;
+  position: relative;
+}
+
+.main--image__two {
+  position: absolute;
+  left: 39%;
+}
+
+.main--one__images > span {
+  color: #036C5E;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Raleway;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 120%; 
+  position: absolute;
+  top: 28%;
+  left: 5%;
+}
+
+.main--one__images > h1 {
+  color: #FFF;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Raleway;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%; 
+  position: absolute;
+  top: 48%;
+  left: 5%;
+}
+
+/* Media  */
+
+@media screen and (min-width: 768px) and (max-width:1279px) {
+  .container {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+  }
+
+  .main--one__all {
+    display: flex;
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    max-width: 960px;
+    width: 100%;
+    margin: auto;
+  }
+
+  .main--one__all {
+    display: flex;
+    flex-direction: column;
+  }
+}
