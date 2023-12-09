@@ -1,0 +1,107 @@
+.trash {
+  background:  #FFF;
+  width: 35%;
+  padding: 30px;
+}
+
+.trash--modal__inner {
+ display: flex;
+ flex-direction: column;
+ gap: 50px;
+}
+
+.trash--karzinka {
+  display: flex;
+  justify-content: space-between;
+}
+
+.trash--cards {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.trash--cards__inner {
+  border-radius: 6px;
+  background: #FBFBFB;
+  display: flex;
+  width: 500px;
+  padding: 20px;
+  align-items: center;
+  gap: 20px;
+}
+
+.cards--about {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.cards--title {
+  display: flex;
+  justify-content: space-between;
+  
+}
+.cards--title > p {
+  color:  #011B18;
+  font-family: Raleway;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.cards--about__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color:  #036C5E;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Raleway;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.cards--count {
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background: #E6E9E8;
+}
+
+.cards--count > button {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  padding: 12px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #868686;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Raleway;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+  border: none;
+}
+.cards--count > span {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:  #036C5E;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
